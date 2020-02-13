@@ -67,7 +67,6 @@ config.borderTopWidth = {
   property: 'borderTopWidth',
   scale: 'borderWidths',
 }
-
 config.borderTopColor = {
   property: 'borderTopColor',
   scale: 'colors',
@@ -77,11 +76,11 @@ config.borderTopStyle = {
   scale: 'borderStyles',
 }
 config.borderTopLeftRadius = {
-  property:'borderTopLeftRadius',
+  property: 'borderTopLeftRadius',
   scale: 'radii',
 }
 config.borderTopRightRadius = {
-  property:'borderTopRightRadius',
+  property: 'borderTopRightRadius',
   scale: 'radii',
 }
 config.borderBottomWidth = {
@@ -97,11 +96,11 @@ config.borderBottomStyle = {
   scale: 'borderStyles',
 }
 config.borderBottomLeftRadius = {
-  property:'borderBottomLeftRadius',
+  property: 'borderBottomLeftRadius',
   scale: 'radii',
 }
 config.borderBottomRightRadius = {
-  property:'borderBottomRightRadius',
+  property: 'borderBottomRightRadius',
   scale: 'radii',
 }
 config.borderLeftWidth = {
@@ -127,6 +126,40 @@ config.borderRightColor = {
 config.borderRightStyle = {
   property: 'borderRightStyle',
   scale: 'borderStyles',
+}
+
+// customs
+config.borderStartColor = {
+  property: 'borderStartColor',
+  scale: 'colors',
+}
+config.borderStartWidth = {
+  property: 'borderStartWidth',
+  scale: 'borderWidths',
+}
+config.borderEndColor = {
+  property: 'borderEndColor',
+  scale: 'colors',
+}
+config.borderEndWidth = {
+  property: 'borderEndWidth',
+  scale: 'borderWidths',
+}
+config.borderTopStartRadius = {
+  property: 'borderTopStartRadius',
+  scale: 'radii',
+}
+config.borderTopEndRadius = {
+  property: 'borderTopEndRadius',
+  scale: 'radii',
+}
+config.borderBottomStartRadius = {
+  property: 'borderBottomStartRadius',
+  scale: 'radii',
+}
+config.borderBottomEndRadius = {
+  property: 'borderBottomEndRadius',
+  scale: 'radii',
 }
 
 export const border = system(config)
