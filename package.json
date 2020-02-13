@@ -62,7 +62,10 @@
   },
   "husky": {
     "hooks": {
-      "precommit": ["build", "lint-staged"]
+      "precommit": [
+        "build:cjs",
+        "lint-staged"
+      ]
     }
   },
   "lint-staged": {
