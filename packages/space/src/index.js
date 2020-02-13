@@ -64,6 +64,20 @@ configs.margin = {
     transform: getMargin,
     defaultScale: defaults.space,
   },
+
+  // customs
+  marginStart: {
+    property: 'marginStart',
+    scale: 'spcae',
+    transform: getMargin,
+    defaultScale: defaults.space,
+  },
+  marginEnd: {
+    property: 'marginEnd',
+    scale: 'spcae',
+    transform: getMargin,
+    defaultScale: defaults.space,
+  },
 }
 configs.margin.m = configs.margin.margin
 configs.margin.mt = configs.margin.marginTop
@@ -72,6 +86,9 @@ configs.margin.mb = configs.margin.marginBottom
 configs.margin.ml = configs.margin.marginLeft
 configs.margin.mx = configs.margin.marginX
 configs.margin.my = configs.margin.marginY
+// customs
+configs.margin.ms = configs.margin.marginStart
+configs.margin.me = configs.margin.marginEnd
 
 configs.padding = {
   padding: {
@@ -109,6 +126,18 @@ configs.padding = {
     scale: 'space',
     defaultScale: defaults.space,
   },
+
+  // customs
+  paddingStart: {
+    property: 'paddingStart',
+    scale: 'space',
+    defaultScale: defaults.space,
+  },
+  paddingEnd: {
+    property: 'paddingEnd',
+    scale: 'space',
+    defaultScale: defaults.space,
+  },
 }
 configs.padding.p = configs.padding.padding
 configs.padding.pt = configs.padding.paddingTop
@@ -117,6 +146,9 @@ configs.padding.pb = configs.padding.paddingBottom
 configs.padding.pl = configs.padding.paddingLeft
 configs.padding.px = configs.padding.paddingX
 configs.padding.py = configs.padding.paddingY
+// customs
+configs.padding.ps = configs.padding.paddingStart
+configs.padding.pe = configs.padding.paddingEnd
 
 export const margin = system(configs.margin)
 export const padding = system(configs.padding)
